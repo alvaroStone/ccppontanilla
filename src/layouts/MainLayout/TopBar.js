@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 import {
   AppBar,
   Toolbar,
-  makeStyles
+  makeStyles,
+  Button
 } from '@material-ui/core';
 import Logo from 'src/components/Logo';
 
@@ -27,7 +28,7 @@ const TopBar = ({ className, ...rest }) => {
     >
       <Toolbar className={classes.toolbar}>
         <RouterLink to="/">
-          <Logo />
+        <Button>Comunidad Propietarios C/ Ontanilla 2-42 (Madrid)</Button>
         </RouterLink>
       </Toolbar>
     </AppBar>
