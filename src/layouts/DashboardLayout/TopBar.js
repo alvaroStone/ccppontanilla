@@ -11,9 +11,10 @@ import {
   Toolbar,
   makeStyles
 } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
+
 import MenuIcon from '@material-ui/icons/Menu';
-import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
-import InputIcon from '@material-ui/icons/Input';
 import Logo from 'src/components/Logo';
 
 const useStyles = makeStyles(() => ({
@@ -40,7 +41,9 @@ const TopBar = ({
     >
       <Toolbar>
         <RouterLink to="/">
-          <Logo />
+            <Tooltip title="Add" arrow>
+          <Button>Comunidad Propietarios C/ Ontanilla 2-42 (Madrid)</Button>
+        </Tooltip>
         </RouterLink>
         <Box flexGrow={1} />
         <Hidden mdDown>
@@ -50,11 +53,10 @@ const TopBar = ({
               color="primary"
               variant="dot"
             >
-              <NotificationsIcon />
+         
             </Badge>
           </IconButton>
           <IconButton color="inherit">
-            <InputIcon />
           </IconButton>
         </Hidden>
         <Hidden lgUp>

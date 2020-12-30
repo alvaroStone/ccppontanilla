@@ -18,12 +18,15 @@ const Padel = () => {
   const classes = useStyles();
 
   return (
-    <Page
-      className={classes.root}
-      title="Padel"
-    >
+    <Page className={classes.root} title="Padel">
       <Container maxWidth={false}>
-        <p>padelview</p>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;src=ZjY5ZzVyODdsNDNidmpra2N0dXRuMms4bDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MGZzaHZjZGdmbjZoam1mNW1qaW52MjZza2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;color=%23C0CA33&amp;title=PISTAS%20DE%20PADEL&amp;mode=WEEK"
+          width="800"
+          height="600"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
       </Container>
     </Page>
   );
