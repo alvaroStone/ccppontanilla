@@ -26,6 +26,8 @@ const Padel = () => {
           height="600"
           frameborder="0"
           scrolling="no"
+          name="padelCalendar"
+          title="padelCalendar"
         ></iframe>
       </Container>
     </Page>

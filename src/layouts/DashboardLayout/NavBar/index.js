@@ -21,7 +21,8 @@ import {
   User as UserIcon,
   UserPlus as UserPlusIcon,
   Users as UsersIcon,
-  Globe as GlobeIcon
+  Globe as GlobeIcon,
+  Calendar as CalendarIcon
 } from 'react-feather';
 import NavItem from './NavItem';
 
@@ -78,13 +79,18 @@ const user = {
    {
      href: '/app/padel',
      icon: GlobeIcon,
-     title: 'Pistas de Padel'
+     title: 'Pistas de Pádel'
    },
+   {
+    href: '/app/prioridades',
+    icon: CalendarIcon,
+    title: 'Prioridades Pistas'
+  },
    {
     href: '/app/reunion',
     icon: UsersIcon,
     title: 'Salas de Reunión'
-  },
+   }
 ];
 
 const useStyles = makeStyles(() => ({

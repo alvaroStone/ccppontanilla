@@ -12,6 +12,7 @@ import RegisterView from 'src/views/auth/RegisterView';
 import SettingsView from 'src/views/settings/SettingsView';
 import PadelView from 'src/views/padel/PadelView'
 import ReunionView from 'src/views/reunion/ReunionView'
+import PrioridadesView from 'src/views/prioridades/PrioridadesView'
 
 
 
@@ -27,6 +28,7 @@ const routes = [
       { path: 'settings', element: <SettingsView /> },
       { path: 'padel', element: <PadelView /> },
       { path: 'reunion', element: <ReunionView /> },
+      { path: 'prioridades', element: <PrioridadesView /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },
