@@ -18,14 +18,13 @@ const Prioridades = () => {
   const classes = useStyles();
 
   return (
-    <Page className={classes.root} title="Padel">
+    <Page className={classes.root} title="Prioridades">
       <Container maxWidth={false}>
         <iframe 
           src="https://docs.google.com/spreadsheets/d/1XsfCS9qgNF_8AO9PjP3JI14S32_dhYg92UqN5I6ub4A/preview" 
           width="800"
           height="600"
         >
-
         </iframe>
       </Container>
     </Page>
